@@ -1,4 +1,4 @@
 # CSS-Code-Project
 
 Learning Git Hub and CSS
-Commiting every new change I made i code so I can practice more.
+Commiting every new change I made and code so I can practice more.
