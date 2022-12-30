@@ -55,6 +55,10 @@ body {
     text-decoration: none;
 }
 
+.main-nav__links:hover {
+    color: aliceblue;
+}
+
 .main-nav__items {
     margin: 0;
     padding: 0;
