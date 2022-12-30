@@ -53,10 +53,14 @@ body {
     margin-right: 5px;
     margin-left: 5px;
     text-decoration: none;
+    font-weight: bold;
+    padding: 3px 0;
 }
 
-.main-nav__links:hover {
+.main-nav__links:hover,
+.main-nav__links:active {
     color: aliceblue;
+    border-bottom: 5px solid aliceblue;
 }
 
 .main-nav__items {
@@ -69,3 +73,8 @@ body {
     display: inline-block;
 }
 
+p::first-letter{
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
