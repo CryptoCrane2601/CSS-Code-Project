@@ -8,7 +8,7 @@ body {
 }
 
 #product-overwiev {
-    background: #ff1b68;
+    background: url("/freedom.jpg");
     width: 100%;
     height: 500px;
     padding: 10px;
