@@ -48,6 +48,7 @@ body {
     vertical-align: middle;
 }
 
+
 .main-nav__links {
     color: #0e4f1f;;
     margin-right: 5px;
@@ -63,6 +64,21 @@ body {
     border-bottom: 5px solid aliceblue;
 }
 
+.main-nav__item--cta a {
+    color: aliceblue;
+    background-color: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color:#ff1b68;
+    background-color: aliceblue;
+    border: none;
+}
+
+
 .main-nav__items {
     margin: 0;
     padding: 0;
@@ -73,8 +89,5 @@ body {
     display: inline-block;
 }
 
-p::first-letter{
-    color: red;
-    font-size: 20px;
-    font-weight: 700;
-}
+
+
