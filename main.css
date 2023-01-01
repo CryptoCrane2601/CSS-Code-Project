@@ -14,14 +14,26 @@ body {
     padding: 20px;
 }
 
+.section-title {
+    color: #0e4f1f;
+    text-align: center;
+}
+
 #product-overwiev h1 {
     color: aliceblue;
     font-family: 'Anton', sans-serif;
 }
 
-.section-title {
-    color: #0e4f1f;
+.plan {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
 }
+
 
 .main-header {
     width: 100%;
