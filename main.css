@@ -89,5 +89,11 @@ body {
     display: inline-block;
 }
 
+#plans {
+    background-color: aqua;
+}
 
+#section--p {
+    color: aliceblue;
+}
 
