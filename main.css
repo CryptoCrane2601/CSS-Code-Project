@@ -48,6 +48,17 @@ body {
     border-radius: 8px;
 }
 
+.plan--list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+plan--list > li {
+    margin: 8px 0;
+    
+}
+
 .main-header {
     width: 100%;
     padding: 8px 16px; 
