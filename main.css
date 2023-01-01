@@ -20,7 +20,7 @@ body {
 }
 
 .section-title {
-    color: #2ddf5c;
+    color: ##0e4f1f;
 }
 
 .main-header {
@@ -90,10 +90,11 @@ body {
 }
 
 #plans {
-    background-color: aqua;
+    background: #2ddf5c;
+    padding: 20px;
 }
 
 #section--p {
-    color: aliceblue;
+    color: #0e4f1f;
 }
 
