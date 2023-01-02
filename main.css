@@ -91,6 +91,17 @@ plan--list > li {
     color: #0e4f1f;
 }
 
+#key-features {
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
+}
+
+#key-features .section-title {
+    color: white;
+    margin: 32px;
+}
+
 .main-header {
     width: 100%;
     padding: 8px 16px; 
