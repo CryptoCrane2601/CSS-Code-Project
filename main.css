@@ -197,6 +197,11 @@ plan--list > li {
     display: inline-block;
 }
 
+.main-footer {
+    background: black;
+    padding: 32px;
+}
+
 #plans {
     background: #2ddf5c;
     padding: 20px;
