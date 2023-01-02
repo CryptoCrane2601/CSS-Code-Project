@@ -15,21 +15,41 @@ main {
     padding: 32px;
 }
 
-.main-section:hover{
-    border: 2px solid red;
-    box-shadow: 2px 2px 2px 2px #ccc;
-}
-
-.main-section__title{
-    color: black;
+.main-section:hover, 
+.main-section:active {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: #ff5454;
 }
 
 .main-section__subtitle {
-    color: #858585;
+    color: #979797;
 }
 
 .main-section__description {
     color: #0e4f1f;
-    border: 2px solid #0e4f1f;
-    padding: 10px;
+    border: 1px solid #0e4f1f;
+    padding: 16px;
+    font-size: 20px;
+    background: white;
 }
+
+#plus {
+    background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+    background:rgba(234, 252, 237, 0.95);
+}
+
+#premium {
+    background: rgba(14, 79, 31, 0.95);
+}
+
+#premium .main-section__title {
+    color: white;
+}
+
+#premium .main-section__subtitle {
+    color: #bbb;
+}
+
