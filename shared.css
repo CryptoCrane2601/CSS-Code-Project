@@ -9,11 +9,17 @@ body {
 
 .main-header {
     width: 100%;
-    padding: 8px 16px; 
-    background: #2ddf5c;
     position: fixed;
+    top: 0;
+    left: 0;
+    background: #2ddf5c;
+    padding: 8px 16px;
     z-index: 1;
-    margin: 0;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .main-header__brand {
@@ -22,55 +28,21 @@ body {
     font-weight: bold;
     font-size: 22px;
     height: 22px;
+    /* width: 20px; */
     display: inline-block;
 }
 
 .main-header__brand img {
     height: 100%;
-}
-
-.main-header > div {
-    display: inline-block;
-    vertical-align: middle;
+    /* width: 100%; */
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 75px);
+    width: calc(100% - 74px);
     vertical-align: middle;
 }
-
-
-.main-nav__links {
-    color: #0e4f1f;;
-    margin-right: 10px;
-    margin-left: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 3px 0;
-}
-
-.main-nav__links:hover,
-.main-nav__links:active {
-    color: aliceblue;
-    border-bottom: 5px solid aliceblue;
-}
-
-.main-nav__item--cta a {
-    color: aliceblue;
-    background-color: #ff1b68;
-    padding: 8px 16px;
-    border-radius: 8px;
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-    color:#ff1b68;
-    background-color: aliceblue;
-    border: none;
-}
-
 
 .main-nav__items {
     margin: 0;
@@ -80,8 +52,35 @@ body {
 
 .main-nav__item {
     display: inline-block;
+    margin: 0 16px;
 }
 
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: white;
+    border-bottom: 5px solid white;
+}
+
+.main-nav__item--cta a {
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover,
+.main-nav__item--cta a:active {
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
 
 .main-footer {
     background: black;
@@ -128,3 +127,6 @@ body {
     color: #0e4f1f;
 }
 
+.button:focus {
+    outline: none;
+}

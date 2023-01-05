@@ -1,37 +1,35 @@
 
 
-#product-overwiev {
-    /* background: url("/freedom.jpg"); */
-    background-image: url("images/freedom.jpg");
+#product-overview {
+    background: url("images/freedom.jpg") left 10% bottom 20%/cover no-repeat border-box;
+    /* background-image: url("freedom.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left 10% bottom 20%;
+    background-position: left 10% bottom 20%; */
+    /* background-repeat: no-repeat;
     background-origin: border-box;
-    background-clip: border-box;
+    background-clip: border-box; */
     width: 100%;
     height: 528px;
-    padding: 10px; 
-    position: relative;
+    padding: 10px;
+    margin-top: 43px;
+    /* border: 5px dashed red; */
+    position: relative;   
 }
 
 .section-title {
-    color: #0e4f1f;
+    color: #2ddf5c;
     text-align: center;
 }
 
-#product-overwiev h1 {
-    color: aliceblue;
+#product-overview h1 {
+    color: white;
     font-family: 'Anton', sans-serif;
     position: absolute;
-    /* top: 500px; */
-    /* left: 50px; */
-    z-index: 0;
     bottom: 5%;
     left: 3%;
-    /* margin-top: 43px; */
 }
 
-.plan__lists {
+.plan__list {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -50,26 +48,26 @@
 .plan--highlighted {
     background: #19b84c;
     color: white;
-    box-shadow: 2px 2px 2px 2px rgba(255,255,255,0.5);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .plan__annotation {
     background: white;
     color: #19b84c;
     padding: 8px;
-    box-shadow: 2px 2px 2px 2px rgba(255,255,255,0.5);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
     border-radius: 8px;
 }
 
 .plan__title {
-    color:#0e4f1f;
+    color: #0e4f1f;
 }
 
 .plan__price {
     color: #858585;
 }
 
-.plan--highlighted .plan__title{
+.plan--highlighted .plan__title {
     color: white;
 }
 
@@ -77,17 +75,15 @@
     color: #0e4f1f;
 }
 
-.plan--list {
+.plan__features {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-plan--list > li {
+.plan__feature {
     margin: 8px 0;
 }
-
-
 
 #key-features {
     background: #ff1b68;
@@ -100,7 +96,7 @@ plan--list > li {
     margin: 32px;
 }
 
-.key-features__list {
+.key-feature__list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -113,29 +109,23 @@ plan--list > li {
     vertical-align: top;
 }
 
-.key-features__image {
+.key-feature__image {
     background: #ffcede;
     width: 128px;
-    border: 2px solid #242424;
-    border-radius: 50%;
     height: 128px;
+    border: 2px solid #424242;
+    border-radius: 50%;
     margin: auto;
 }
 
-.key-features__description {
-    color: white;
+.key-feature__description {
     text-align: center;
     font-weight: bold;
-    font-weight: 20px;
+    color: white;
+    font-size: 20px;
 }
 
-
-#plans {
-    background: #2ddf5c;
-    padding: 20px;
-}
-
-#section--p {
-    color: #0e4f1f;
-}
+/* h1 {
+    font-family: sans-serif;
+} */
 
