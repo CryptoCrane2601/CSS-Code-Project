@@ -6,6 +6,7 @@
     height: 600px;
     padding: 20px;
     margin-top: 10px;
+    
 }
 
 .section-title {
@@ -16,6 +17,9 @@
 #product-overwiev h1 {
     color: aliceblue;
     font-family: 'Anton', sans-serif;
+    position: relative;
+    top: 500px;
+    left: 50px;
 }
 
 .plan__lists {
