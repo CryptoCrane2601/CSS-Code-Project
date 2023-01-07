@@ -88,7 +88,7 @@ body {
     color: white;
     background: #ff1b68;
     padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
+    border-radius: 8px ;
 }
 
 .main-nav__item--cta a:hover,
@@ -132,7 +132,7 @@ body {
     font: inherit;
     border: 1.5px solid #0e4f1f;
     padding: 0.5rem;
-    border-radius: 0.5rem;
+    border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
 }
