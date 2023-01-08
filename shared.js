@@ -23,15 +23,21 @@ backdrop.addEventListener('click', function() {
     // modal.style.display = 'none';  
     mobileNav.classList.remove('open');
     backdrop.classList.remove('open');
-    modal.classList.remove('open');
+    if (modal) {
+        modal.classList.remove('open');
+    }
+    
     });
 
-selectNoButton.addEventListener('click', function() {
+if(selectNoButton) {
+    selectNoButton.addEventListener('click', function() {
     // backdrop.style.display = 'none';    
     // modal.style.display = 'none';
     backdrop.classList.remove('open'); 
     modal.classList.remove('open'); 
     });
+}
+    
 
 toggleButton.addEventListener('click', function() {
     // mobileNav.style.display = 'block';
