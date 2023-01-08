@@ -16,6 +16,7 @@ for (var i = 0; i < selectPlanButtons.length; i++) {
         });
 }
 backdrop.addEventListener('click', function() {
+    mobileNav.style.display = 'none';
     backdrop.style.display = 'none';    
     modal.style.display = 'none';  
     });
@@ -27,4 +28,5 @@ selectNoButton.addEventListener('click', function() {
 
 toggleButton.addEventListener('click', function() {
     mobileNav.style.display = 'block';
+    backdrop.style.display = 'block';
 })
