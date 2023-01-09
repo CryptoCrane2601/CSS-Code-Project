@@ -11,7 +11,7 @@
     /* background-image: radial-gradient(circle 20px at 20% 40%, red, blue, yellow); */
     width: 100vw;
     height: 33vh;
-    margin-top: 2.7rem;
+    margin-top: 3.5rem;
     /* border: 5px dashed red; */
     position: relative;   
 }
@@ -25,7 +25,7 @@
     font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) and (min-height: 60rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
     #product-overview h1 {
         font-size: 3 rem;
     }
