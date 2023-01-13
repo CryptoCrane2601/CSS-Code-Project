@@ -92,11 +92,11 @@
     .plan {
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         width: 30%;
         height: 27rem;
         min-width: 13rem;
         max-width: 25rem;
-        margin: 0 0.5rem;
     }
     .plan__list {
         display: flex;
@@ -109,6 +109,7 @@
     .plan--highlighted {
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
         height: 30rem;
+        z-index: 1;
     }
 
 }
@@ -152,13 +153,11 @@
     .key-feature {
         width: 30%;
         max-width: 25rem;
-        vertical-align: top;
     }
 
     .key-feature__list {
         display: flex;
         justify-content: center;
-        align-items: center;
     }
 }
 
