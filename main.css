@@ -90,18 +90,25 @@
 
 @media (min-width: 40rem) {
     .plan {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
         width: 30%;
-        vertical-align: middle; 
+        height: 27rem;
         min-width: 13rem;
         max-width: 25rem;
+        margin: 0 0.5rem;
     }
     .plan__list {
-    width: 100%;
-    text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    
 }
     .plan--highlighted {
         box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+        height: 30rem;
     }
 
 }
@@ -143,10 +150,15 @@
 
 @media (min-width: 40rem) {
     .key-feature {
-        display: inline-block;
         width: 30%;
         max-width: 25rem;
         vertical-align: top;
+    }
+
+    .key-feature__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
