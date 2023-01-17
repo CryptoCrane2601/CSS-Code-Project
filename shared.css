@@ -106,6 +106,10 @@ main {
     border-radius: 8px ;
 }
 
+.main-nav__item--cta {
+    animation: wiggle 200ms 3s 8 alternate;
+}
+
 .main-nav__item--cta a:hover,
 .main-nav__item--cta a:active,
 .mobile-nav__item--cta a:hover,
@@ -253,4 +257,13 @@ main {
     display: block !important;
     opacity: 1 !important;
     transform: translateY(0) !important;
+  }
+
+  @keyframes wiggle {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(10deg);
+    }
   }
