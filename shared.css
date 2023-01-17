@@ -218,6 +218,7 @@ main {
 
 .mobile-nav {
     transform: translateX(-100%);
+    transition: transform 500ms ease-out;
     position: fixed;
     z-index: 101;
     top: 0;
@@ -225,7 +226,7 @@ main {
     background: white;
     width: 80%;
     height: 100vh;
-    transition: transform 500ms ease-out;
+    
   }
   
   .mobile-nav__items {
