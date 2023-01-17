@@ -15,7 +15,8 @@ main {
 
 .background {
     background: url("../images/plans-background.jpg") center/cover;
-    filter: grayscale(40%);
+    -webkit-filter: grayscale(40%);
+            filter: grayscale(40%);
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -39,7 +40,8 @@ main {
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     border-color: #ff5454;
     /* border-color: #ff5454 !important; */
-    animation: move-up 1s forwards;
+    -webkit-animation: move-up 1s forwards;
+            animation: move-up 1s forwards;
 }
 
 .package a {
@@ -130,6 +132,15 @@ main {
 
 #premium .package__subtitle {
     color: #bbb;
+}
+
+@-webkit-keyframes move-up {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
 
 @keyframes move-up {
