@@ -31,11 +31,16 @@ main {
     overflow: hidden;
 }
 
+/* #plus:hover {
+    animation: move-up 1s ease-out;
+} */
+
 .package:hover,
 .package:active {
     box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     border-color: #ff5454;
     /* border-color: #ff5454 !important; */
+    animation: move-up 1s forwards;
 }
 
 .package a {
@@ -127,4 +132,13 @@ main {
 
 #premium .package__subtitle {
     color: #bbb;
+}
+
+@keyframes move-up {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
 }
